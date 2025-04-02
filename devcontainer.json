@@ -1,0 +1,35 @@
+// {
+//     "name": "Mina AI Codespace",
+//     "image": "mcr.microsoft.com/devcontainers/python:3.10",
+//     "postCreateCommand": "curl -fsSL https://ollama.ai/install.sh | sh",
+//     "forwardPorts": [11434],
+//     "runArgs": ["--init"],
+//     "initializeCommand": "ollama serve &"
+//   }
+  
+
+  {
+    "name": "Mina AI Codespace",
+    "image": "mcr.microsoft.com/devcontainers/python:3.10",
+    "postCreateCommand": "curl -fsSL https://ollama.ai/install.sh | sh && ollama pull phi",
+    "forwardPorts": [11434],
+    "runArgs": ["--init"],
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "terminal.integrated.profiles.linux": {
+            "ollama": {
+              "path": "bash",
+              "args": ["-c", "ollama serve"]
+            }
+          }
+        }
+      }
+    },
+    "portsAttributes": {
+      "11434": {
+        "label": "Ollama",
+        "onAutoForward": "notify"
+      }
+    }
+  }
