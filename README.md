@@ -1,1 +1,1 @@
-# Mina
+# Minapip uninstall ollama -y
