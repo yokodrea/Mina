@@ -229,7 +229,8 @@
 
 #     pentester.generate_report()
 
-# it works and generate report as well 
+# it works and generate report as well  final prototype
+
 import ollama
 import requests
 from bs4 import BeautifulSoup
@@ -409,5 +410,7 @@ if __name__ == "__main__":
     # Run defensive module after scanning
     defense = DefensiveMechanisms()
     defense.generate_mitigation_report()
+
+
 
 
