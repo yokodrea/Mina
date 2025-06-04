@@ -1,1 +1,1 @@
-# Minapip uninstall ollama -y
+# still need to update it 
