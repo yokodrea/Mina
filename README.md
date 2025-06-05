@@ -1,4 +1,4 @@
-##Smart Pentester CLI - AI-Powered Security Scanner 
+## Smart Pentester CLI - AI-Powered Security Scanner 
 A minimalistic intelligent network agent (MINA-AI)  for automated security scanning and defensive recommendations, combining rule-based detection with AI analysis.
 
 ## Features
