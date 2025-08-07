@@ -1,0 +1,6 @@
+ollama
+requests
+beautifulsoup4
+tenacity
+rich
+argparse
