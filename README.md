@@ -1,4 +1,4 @@
-# 🛡️ MINA - AI Smart Pentester  
+# 🛡️ MINAMA - AI Smart Pentester  
 _An AI-Powered Security Scanner with Automated Defense Strategies_
 
 **MINA (Minimalistic Intelligent Network Agent)** is a lightweight pentesting assistant that combines **rule-based vulnerability detection** with **AI-powered analysis and defensive recommendations**.  
